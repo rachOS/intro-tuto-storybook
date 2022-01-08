@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Clicked 1`] = `
+<div
+  className="BTN_CLICKED"
+>
+  <button
+    aria-label="button-1"
+    className="button"
+    id="button-1"
+    onClick={[Function]}
+  >
+    Test button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Default 1`] = `
+<div
+  className="BTN_DEFAULT"
+>
+  <button
+    aria-label="button-1"
+    className="button"
+    id="button-1"
+    onClick={[Function]}
+  >
+    Test button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button Disabled 1`] = `
+<div
+  className="BTN_DISABLED"
+>
+  <button
+    aria-label="button-undefined"
+    className="button"
+    id="button-undefined"
+    onClick={[Function]}
+  />
+</div>
+`;
