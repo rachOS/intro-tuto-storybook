@@ -10,7 +10,7 @@ exports[`Storyshots Button Clicked 1`] = `
     id="button-1"
     onClick={[Function]}
   >
-    Test button
+    clicked
   </button>
 </div>
 `;
@@ -25,7 +25,7 @@ exports[`Storyshots Button Default 1`] = `
     id="button-1"
     onClick={[Function]}
   >
-    Test button
+    default
   </button>
 </div>
 `;
@@ -35,10 +35,12 @@ exports[`Storyshots Button Disabled 1`] = `
   className="BTN_DISABLED"
 >
   <button
-    aria-label="button-undefined"
+    aria-label="button-1"
     className="button"
-    id="button-undefined"
+    id="button-1"
     onClick={[Function]}
-  />
+  >
+    disabled
+  </button>
 </div>
 `;

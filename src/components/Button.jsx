@@ -8,7 +8,7 @@ export default function Button({ id, title, state, onClick }) {
       <button
         id={`button-${id}`}
         className="button"
-        onClick={() => onClick()}
+        onClick={event => event.stopPropagation()}
         aria-label={`button-${id}`}
       >
         {title}
