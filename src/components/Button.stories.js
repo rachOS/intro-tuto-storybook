@@ -17,11 +17,11 @@ Default.args = {
     updatedAt: new Date(2021, 0, 1, 9, 0),
 };
 
-export const Clicked = Template.bind({});
-Clicked.args = {
+export const Warning = Template.bind({});
+Warning.args = {
     ...Default.args,
-    title : "clicked",
-    state: 'BTN_CLICKED',
+    title : "warning",
+    state: 'BTN_WARNING',
 };
 
 export const Disabled = Template.bind({});
