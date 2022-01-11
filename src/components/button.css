@@ -1,8 +1,27 @@
 .button {
-    font-weight: 900;
-    color: black;
-    border: 1px solid black;
-    background-color: transparent;
-    width : 300px;
-    height: 30px;
+  font-weight: 600;
+  width: 300px;
+  height: 30px;
+}
+
+.button.BTN_DEFAULT {
+  border-radius: 5px;
+  background-color: rgb(206, 182, 182);
+  color: rgb(43, 40, 40);
+  border: none;
+}
+
+.button.BTN_CLICKED {
+  border-radius: 5px;
+  background-color: rgb(59, 25, 11);
+  color: white;
+  border: none;
+}
+
+.button.BTN_DISABLED {
+  border-radius: 5px;
+  background-color: rgb(131, 131, 131);
+  color: white;
+  border: none;
+  cursor: default;
 }
