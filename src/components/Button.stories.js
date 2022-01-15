@@ -30,5 +30,4 @@ Disabled.args = {
   title: 'disabled',
   state: 'BTN_DISABLED',
   onClick: (e) => e.stopPropagation,
-
 };
