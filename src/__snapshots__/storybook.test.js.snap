@@ -44,3 +44,18 @@ exports[`Storyshots Button Disabled 1`] = `
   </button>
 </div>
 `;
+
+exports[`Storyshots Button Warning 1`] = `
+<div
+  className="BTN_WARNING"
+>
+  <button
+    aria-label="button-1"
+    className="button"
+    id="button-1"
+    onClick={[Function]}
+  >
+    warning
+  </button>
+</div>
+`;
