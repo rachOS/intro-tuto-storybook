@@ -11,23 +11,23 @@ const Template = (args) => <Button {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   id: '1',
-  title: 'default',
-  state: 'BTN_DEFAULT',
-  onClick: (e) => alert(e.target.className),
-  updatedAt: new Date(2021, 0, 1, 9, 0),
+  text: 'default',
+  theme: 'BTN_DEFAULT',
+  handleClick: (e) => alert(e.target.className),
+  updatedAt: new Date(),
 };
 
 export const Clicked = Template.bind({});
 Clicked.args = {
   ...Default.args,
-  title: 'clicked',
-  state: 'BTN_CLICKED',
+  text: 'clicked',
+  theme: 'BTN_CLICKED',
 };
 
 export const Disabled = Template.bind({});
 Disabled.args = {
   ...Default.args,
-  title: 'disabled',
-  state: 'BTN_DISABLED',
-  onClick: (e) => e.stopPropagation,
+  text: 'disabled',
+  theme: 'BTN_DISABLED',
+  handleClick: (e) => e.stopPropagation,
 };

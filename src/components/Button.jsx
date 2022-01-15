@@ -1,17 +1,15 @@
 import React from 'react';
 import './button.css';
 
-export default function Button({ id, title, state, onClick }) {
+export default function Button({ id, text, theme, handleClick }) {
   return (
-    <div className={`${state}`}>
-      <button
-        id={`button-${id}`}
-        className={`button ${state}`}
-        onClick={(e) => onClick(e)}
-        aria-label={`button-${id}`}
-      >
-        {title}
-      </button>
-    </div>
+    <button
+      id={`button-${id}`}
+      className={`button ${theme}`}
+      onClick={(e) => handleClick(e)}
+      aria-label={`button-${id}`}
+    >
+      {text}
+    </button>
   );
 }
